@@ -2,15 +2,13 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# DEAR-WHOEVER
 
-This contains everything you need to run your app locally.
+This repository contains the website source code for the DEAR-WHOEVER project.
 
-View your app in AI Studio: https://ai.studio/apps/dff25b58-3f0d-40cb-a42e-23b1a6abcb48
+## Run locally
 
-## Run Locally
-
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js
 
 
 1. Install dependencies:
@@ -18,3 +16,15 @@ View your app in AI Studio: https://ai.studio/apps/dff25b58-3f0d-40cb-a42e-23b1a
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Publish with GitHub Pages
+
+This repository now includes `.github/workflows/deploy-pages.yml` to build and deploy automatically.
+
+1. Push changes to the `main` branch.
+2. Open your repository on GitHub: **Settings → Pages**.
+3. In **Build and deployment**, set **Source** to **GitHub Actions**.
+4. Wait for the **Deploy to GitHub Pages** workflow to finish.
+
+Your public site URL will be:
+`https://reachmuhammadahmed.github.io/DEAR-WHOEVER/`
