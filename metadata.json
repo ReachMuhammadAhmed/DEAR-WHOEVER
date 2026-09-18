@@ -1,6 +1,0 @@
-{
-  "name": "Pixel Postcard",
-  "description": "Draw on a 32x32 pixel canvas, mail it to an anonymous stranger, receive art back, and explore a living gallery of tiny pixel postcards.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
